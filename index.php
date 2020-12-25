@@ -46,7 +46,7 @@
       id="mainNav"
     >
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="/index.php#page-top"
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"
           ><img
             src="./assets/img/Wischoollogo.png"
             class="mr-2"
@@ -75,23 +75,23 @@
               >
             </li>
             <li class="nav-item mx-auto">
-              <a class="nav-link js-scroll-trigger" href="../index.php#about">À propos</a>
+              <a class="nav-link js-scroll-trigger" href="index.php#about">À propos</a>
             </li>
             <li class="nav-item mx-auto">
-              <a class="nav-link js-scroll-trigger" href="../index.php#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="index.php#contact">Contact</a>
             </li>
           </ul>
           <a
             class="nav-link js-scroll-trigger my-1 ml-3 text-white"
-            href="/view/login.php"
+            href="./view/login.php"
           >
-            <button type="button" class="btn btn-block btn-outline-primary">
+            <button type="button" class="btn btn-block btn-primary">
               Se connecter
             </button></a>
         </div>
       </div>
     </nav>
-    
+
   <a id="button"><i class="mt-2 fas fa-2x fa-arrow-up"></i></a>
 
     <!-- Masthead-->
@@ -150,7 +150,7 @@
           <div class="col-lg-3 col-md-6 text-center">
             <div class="mt-5">
               <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-              <h3 class="h4 mb-2">Project</h3>
+              <h3 class="h4 mb-2">Projet</h3>
               <p class="text-muted mb-0">Par la DevCommunityClub</p>
             </div>
           </div>

@@ -12,25 +12,25 @@
         </div>
         <div class="row">
           <div class="col-lg-3 ml-auto text-center mb-5 mb-lg-0">
-            <a href="https://www.linkedin.com/in/benjamin-francisco-3848531b6/"
+            <a href="https://www.linkedin.com/in/benjamin-francisco-3848531b6/" target="_blank"
               ><i class="fab fa-linkedin fa-3x mb-3 text-muted"></i
             ></a>
           </div>
 
           <div class="col-lg-3 ml-auto text-center mb-5 mb-lg-0">
-            <a href="mailto:devcomclub@yahoo.com"
+            <a href="mailto:devcomclub@yahoo.com" target="_blank"
               ><i class="fas fa-envelope fa-3x mb-3 text-muted"></i
             ></a>
           </div>
 
           <div class="col-lg-3 ml-auto text-center mb-5 mb-lg-0">
-            <a href="https://www.instagram.com/devcomclub/"
+            <a href="https://www.instagram.com/devcomclub/" target="_blank"
               ><i class="fab fa-instagram fa-3x mb-3 text-muted"></i
             ></a>
           </div>
 
           <div class="col-lg-3 ml-auto text-center mb-5 mb-lg-0">
-            <a href="https://www.instagram.com/devcomclub/"
+            <a href="https://www.instagram.com/devcomclub/" target="_blank"
               ><i class="fab fa-snapchat-ghost fa-3x mb-3 text-muted"></i
             ></a>
           </div>

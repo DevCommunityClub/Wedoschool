@@ -6,16 +6,16 @@
       <div class="card login-card">
         <div class="row no-gutters">
           <div class="col-md-5">
-            <img src="/assets/img/DUGNY01.jpg" alt="login" class="login-card-img">
+            <img src="../assets/img/DUGNY01.jpg" alt="login" class="login-card-img">
           </div>
           <div class="col-md-7">
             <div class="card-body">
               <div class="brand-wrapper">
-              <img src="/assets/img/Wischoollogo.png" alt="logo" class="logo mr-2">
+              <img src="../assets/img/Wischoollogo.png" alt="logo" class="logo mr-2">
                   <span class="font-weight-bold">WeDoSchool</span>
               </div>
               <p class="login-card-description">Enregistrez-vous</p>
-              <form action="ct-reg.php">
+              <form action="../view/ctl_php/ct-reg.php" method="post">
                 <div class="form-group">
                     <label for="name" class="sr-only">Nom</label>
                     <input type="text" name="mon" id="nom" class="form-control" placeholder="Nom Prénom" required>
@@ -24,47 +24,17 @@
                     <label for="email" class="sr-only">Email</label>
                     <input type="email" name="email" id="email" class="form-control" placeholder="Adresse Mail" required>
                   </div>
-                  <div class="form-group mb-4">
-                    <label for="password" class="sr-only">Password</label>
-                    <input type="password" name="password" id="password" class="form-control" placeholder="*********" required>
-                  </div>
                   <input name="login" id="login" class="btn btn-block login-btn mb-4" type="submit" value="S'enregistre">
               </form>
               <p style="font-size:12px;" class="text-muted">*Validez l'inscription revient à accepter nos CGU.</p>
-                <p class="login-card-footer-text">Vous avez déjà un compte? <a href="/view/login.php" class="text-reset">Se connecter</a></p>
+                <p class="login-card-footer-text">Vous avez déjà un compte? <a href="./login.php" class="text-reset">Se connecter</a></p>
                 <nav class="login-card-footer-nav">
-                    <a href="/view/privacy.php">CGU</a>
+                    <a href="../view/privacy.php">CGU</a>
                 </nav>
             </div>
           </div>
         </div>
       </div>
-      <!--<div class="card login-card">
-        <img src="assets/images/login.jpg" alt="login" class="login-card-img">
-        <div class="card-body">
-          <h2 class="login-card-title">Login</h2>
-          <p class="login-card-description">Sign in to your account to continue.</p>
-          <form action="#!">
-            <div class="form-group">
-              <label for="email" class="sr-only">Email</label>
-              <input type="email" name="email" id="email" class="form-control" placeholder="Email">
-            </div>
-            <div class="form-group">
-              <label for="password" class="sr-only">Password</label>
-              <input type="password" name="password" id="password" class="form-control" placeholder="Password">
-            </div>
-            <div class="form-prompt-wrapper">
-              <div class="custom-control custom-checkbox login-card-check-box">
-                <input type="checkbox" class="custom-control-input" id="customCheck1">
-                <label class="custom-control-label" for="customCheck1">Remember me</label>
-              </div>              
-              <a href="#!" class="text-reset">Forgot password?</a>
-            </div>
-            <input name="login" id="login" class="btn btn-block login-btn mb-4" type="button" value="Login">
-          </form>
-          <p class="login-card-footer-text">Don't have an account? <a href="#!" class="text-reset">Register here</a></p>
-        </div>
-      </div> -->
     </div>
   </main>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

@@ -10530,7 +10530,7 @@ header.masthead {
       #598c9bcc 0%,
       rgba(59, 59, 59, 0.8) 100%
     ),
-    url("/assets/img/Jacques_Louis_David.jpg");
+    url("../img/Jacques_Louis_David.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;

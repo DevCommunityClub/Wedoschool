@@ -37,8 +37,8 @@
       rel="stylesheet"
     />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="/assets/css/styles.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/assets/css/login.css"/>
+    <link href="../assets/css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/css/login.css"/>
   </head>
   <body id="page-top">
     <!-- Navigation-->
@@ -47,9 +47,9 @@
       id="mainNav"
     >
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger text-secondary" href="/index.php#page-top"
+        <a class="navbar-brand js-scroll-trigger text-secondary" href="../index.php#page-top"
           ><img
-            src="/assets/img/Wischoollogo.png"
+            src="../assets/img/Wischoollogo.png"
             class="mr-2"
             style="width: 5vh"
           />WeDoSchool</a
@@ -84,9 +84,9 @@
           </ul>
           <a
             class="nav-link js-scroll-trigger my-1 ml-3 text-white"
-            href="/view/login.php"
+            href="../view/login.php"
           >
-            <button type="button" class="btn btn-block btn-outline-primary">
+            <button type="button" class="btn btn-block btn-primary">
               Se connecter
             </button></a>
         </div>
