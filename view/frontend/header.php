@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <meta
@@ -13,7 +13,7 @@
     <link
       rel="icon"
       type="image/x-icon"
-      href="../assets/img/Wischoollogo.ico"
+      href="http://localhost/Wedoschool/assets/img/Wischoollogo.ico"
     />
     <!-- Font Awesome icons (free version)-->
     <script
@@ -32,13 +32,10 @@
       type="text/css"
     />
     <!-- Third party plugin CSS-->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="../assets/css/styles.css" rel="stylesheet" />
-    <link rel="stylesheet" href="../assets/css/login.css"/>
+    <link href="http://localhost/Wedoschool/assets/css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://localhost/Wedoschool/assets/css/login.css"/>
   </head>
   <body id="page-top">
     <!-- Navigation-->
@@ -47,9 +44,9 @@
       id="mainNav"
     >
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger text-secondary" href="../index.php#page-top"
+        <a class="navbar-brand js-scroll-trigger text-secondary" href="http://localhost/Wedoschool/index.php#page-top"
           ><img
-            src="../assets/img/Wischoollogo.png"
+            src="http://localhost/Wedoschool/assets/img/Wischoollogo.png"
             class="mr-2"
             style="width: 5vh"
           />WeDoSchool</a
@@ -68,7 +65,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto my-2 my-lg-0">
             <li class="nav-item mx-auto">
-              <a class="nav-link js-scroll-trigger text-secondary" href="#">1 BTS Slam</a>
+              <a class="nav-link js-scroll-trigger disabled text-secondary" href="#">1 BTS Slam (W.I.P)</a>
             </li>
             <li class="nav-item mx-auto">
               <a class="nav-link js-scroll-trigger disabled text-secondary" href="#"
@@ -76,15 +73,15 @@
               >
             </li>
             <li class="nav-item mx-auto">
-              <a class="nav-link js-scroll-trigger text-secondary" href="../index.php#about">À propos</a>
+              <a class="nav-link js-scroll-trigger text-secondary" href="http://localhost/Wedoschool/index.php#about">À propos</a>
             </li>
             <li class="nav-item mx-auto">
-              <a class="nav-link js-scroll-trigger text-secondary" href="../index.php#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger text-secondary" href="http://localhost/Wedoschool/index.php#contact">Contact</a>
             </li>
           </ul>
           <a
             class="nav-link js-scroll-trigger my-1 ml-3 text-white"
-            href="../view/login.php"
+            href="http://localhost/Wedoschool/view/login/index.php"
           >
             <button type="button" class="btn btn-block btn-primary">
               Se connecter

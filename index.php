@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <meta
@@ -67,7 +67,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto my-2 my-lg-0">
             <li class="nav-item mx-auto">
-              <a class="nav-link js-scroll-trigger" href="#">1 BTS Slam</a>
+              <a class="nav-link js-scroll-trigger disabled" href="#">1 BTS Slam (W.I.P)</a>
             </li>
             <li class="nav-item mx-auto">
               <a class="nav-link js-scroll-trigger disabled" href="#"
@@ -83,7 +83,7 @@
           </ul>
           <a
             class="nav-link js-scroll-trigger my-1 ml-3 text-white"
-            href="./view/login.php"
+            href="./view/login/"
           >
             <button type="button" class="btn btn-block btn-primary">
               Se connecter
